@@ -620,11 +620,13 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/blackandwhite_0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_0.cube.rgb.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/blackandwhite_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite_1.cube.rgb.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/bright_coloured.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/ceremony.rgba.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ceremony.rgba.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/city.cube.rgb.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/cola.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cola.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw1994.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/drjw2010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw2010.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/festival.rgba.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/festival.rgba.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/fuji-cc-high.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-cc-high.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/fuji-cc-low.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-cc-low.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin \
@@ -678,6 +680,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/sky-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/sky-blue.cube.rgb.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/tree-green.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/tree-green.cube.rgb.bin \
+    vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/vibe.rgba.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vibe.rgba.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin \
     vendor/oneplus/dodge/proprietary/odm/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin \
@@ -970,6 +973,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/batt_dchg_ctrl_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/batt_dchg_ctrl_config_table.txt \
     vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/batt_eis_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/batt_eis_config.txt \
     vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/batt_si_loss_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/batt_si_loss_config_table.txt \
+    vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/battery_damage_config.json:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/battery_damage_config.json \
     vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/bms_heating_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/bms_heating_config.txt \
     vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/charge_time_config.csv:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charge_time_config.csv \
     vendor/oneplus/dodge/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
@@ -981,6 +985,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/odm/firmware/tof8801_firmware.bin:$(TARGET_COPY_OUT_ODM)/firmware/tof8801_firmware.bin \
     vendor/oneplus/dodge/proprietary/odm/firmware/tp/23821/FW_S3910_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/23821/FW_S3910_BOE.img \
     vendor/oneplus/dodge/proprietary/odm/firmware/tp/23821/FW_S3910_BOEB8_HBP.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/23821/FW_S3910_BOEB8_HBP.img \
+    vendor/oneplus/dodge/proprietary/odm/firmware/tp/23821/FW_S3910_BOEB8_HBP_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/23821/FW_S3910_BOEB8_HBP_FAE.img \
     vendor/oneplus/dodge/proprietary/odm/firmware/tp/23821/FW_S3910_BOE_HBP.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/23821/FW_S3910_BOE_HBP.img \
     vendor/oneplus/dodge/proprietary/odm/firmware/tp/23821/FW_S3910_BOE_HBP_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/23821/FW_S3910_BOE_HBP_FAE.img \
     vendor/oneplus/dodge/proprietary/odm/firmware/tp/23821/FW_S3910_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/23821/FW_S3910_SAMSUNG.img \
