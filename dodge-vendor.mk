@@ -843,6 +843,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/dodge_qrd_ois_system.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/dodge_qrd_ois_system.json \
     vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/json_list:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/json_list \
     vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/lux_aod.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lux_aod.json \
+    vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/oplus_car_motion.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_car_motion.json \
     vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/oplus_gyro_cal_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/oplus_gyro_cal_0.json \
     vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/pakala_mtp_ak09919.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/pakala_mtp_ak09919.json \
     vendor/oneplus/dodge/proprietary/odm/etc/sensor/config/pakala_mtp_alsps.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/pakala_mtp_alsps.json \
