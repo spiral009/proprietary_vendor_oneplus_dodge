@@ -9452,6 +9452,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmidasserviceintf_aidl",
+    allow_undefined_symbols: true,
+    check_elf_files: false,
     owner: "oneplus",
     strip: {
         none: true,
@@ -9462,7 +9464,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmidasserviceintf_aidl.so",
             ],
             shared_libs: [
-                "vendor.oplus.hardware.cammidasservice-V1-ndk",
                 "android.frameworks.stats-V1-ndk",
                 "libbinder_ndk",
                 "libutils",
@@ -14175,6 +14176,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libextensionlayer",
+    check_elf_files: false,
     owner: "oneplus",
     strip: {
         none: true,
@@ -14215,11 +14217,9 @@ cc_prebuilt_library_shared {
                 "vendor.qti.hardware.vpp@1.2",
                 "libhwconfigurationutil",
                 "libcom.qti.chinodeutils",
-                "vendor.oplus.hardware.cammidasservice-V1-ndk",
                 "libmidasserviceintf_aidl",
                 "vendor.oplus.hardware.camera.aon-service-impl",
                 "liboplusdfx",
-                "vendor.oplus.hardware.performance-V1-ndk_platform",
                 "libc",
                 "libm",
                 "libdl",
@@ -15100,6 +15100,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.camera.aon-service-impl",
+    check_elf_files: false,
     owner: "oneplus",
     strip: {
         none: true,
@@ -15115,7 +15116,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "com.qti.qseeaon",
-                "vendor.oplus.hardware.camera.aon-V1-ndk_platform",
                 "libz",
                 "libc++",
                 "libc",
@@ -15131,6 +15131,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.camera_rfi-V1-service-impl",
+    check_elf_files: false,
+    allow_undefined_symbols: true,
     owner: "oneplus",
     strip: {
         none: true,
@@ -15147,7 +15149,6 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libbinder",
                 "libbinder_ndk",
-                "vendor.oplus.hardware.camera_rfi-V3-ndk",
                 "libc++",
                 "libc",
                 "libm",
@@ -15162,6 +15163,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.oplus.hardware.sendextcamcmd-V1-service-impl",
+    check_elf_files: false,
+    allow_undefined_symbols: true,
     owner: "oneplus",
     strip: {
         none: true,
@@ -15179,7 +15182,6 @@ cc_prebuilt_library_shared {
                 "libbinder",
                 "libbinder_ndk",
                 "libhwconfigurationutil",
-                "vendor.oplus.hardware.sendextcamcmd-V2-ndk",
                 "liboutils",
                 "libocompression",
                 "libc++",
@@ -15316,6 +15318,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.oplus.hardware.cammidasservice-V1-service",
+    check_elf_files: false,
     owner: "oneplus",
     target: {
         android_arm64: {
@@ -15323,7 +15326,6 @@ cc_prebuilt_binary {
                 "proprietary/odm/bin/hw/vendor.oplus.hardware.cammidasservice-V1-service",
             ],
             shared_libs: [
-                "vendor.oplus.hardware.cammidasservice-V1-ndk",
                 "android.frameworks.stats-V1-ndk",
                 "libbinder_ndk",
                 "libutils",
